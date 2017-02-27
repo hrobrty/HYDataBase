@@ -21,11 +21,6 @@
 //  Copyright © 2017年 hrobrty. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "FMDB.h"
-#import "FMResultSet.h"
-#import "HYHead.h"
-
 @interface DBConnect : NSObject
 
 @property (nonatomic, retain) FMDatabase *dataBase;  // 数据库类
@@ -66,26 +61,31 @@
 ＊
 ＊2 对表格的操作：
 
-#import <Foundation/Foundation.h>
-#import "DBConnect.h"
-
-@interface EmployDB : NSObject
-
-/// 通过单例的方式
+// 通过单例的方式
 + (EmployDB *)shareConnect;
--(void)newDBConnect;
+
 //创建所有的表
--(void)CreateAll;
+- (void)newDBConnect;
+
+//创建所有的表
+- (void)CreateAll;
 
 //操作历史记录
--(NSArray *)SelectHistory;
+- (NSArray *)SelectHistory;
+
 //记录一项操作的数据，需要的数据自己可以更改
--(NSInteger)InsertHistory:(NSString *) callTime diaplsyName:(NSString *) diaplsyName time:(NSString *) time sipUri:(NSString *) sipUri sipNum:(NSString *) sipNum direction:(NSInteger) direction;
+- (NSInteger)InsertHistory:(NSString *) callTime diaplsyName:(NSString *) diaplsyName time:(NSString *) time sipUri:(NSString *) sipUri sipNum:(NSString *) sipNum direction:(NSInteger) direction;
+
 //删除表格中的某一项
--(void)DelHistory:(NSInteger) index;
+- (void)DelHistory:(NSInteger) index;
+
 //更新表格
--(void)UpdateHistory:(NSInteger ) hid readState:(NSInteger) readState time:(NSString *)time;
--(void)UpdateHistory:(NSInteger ) hid time:(NSString *)time;
+- (void)UpdateHistory:(NSInteger ) hid readState:(NSInteger) readState time:(NSString *)time;
+
+- (void)UpdateHistory:(NSInteger ) hid time:(NSString *)time;
 
 
 @end
+
+#Contact
+ 如果发现bug或有值得改进的地方，please pull reqeust me.
