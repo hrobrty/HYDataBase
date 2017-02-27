@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4565F2F95918F304CE8B196D /* libPods-HYDataBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 005510F573BAAAFF99C4A8AB /* libPods-HYDataBase.a */; };
+		FF9FBDC61E640F9E00583824 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FBDC51E640F9E00583824 /* main.m */; };
+		FF9FBDC91E640F9E00583824 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FBDC81E640F9E00583824 /* AppDelegate.m */; };
+		FF9FBDCC1E640F9E00583824 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FBDCB1E640F9E00583824 /* ViewController.m */; };
+		FF9FBDCF1E640F9E00583824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9FBDCD1E640F9E00583824 /* Main.storyboard */; };
+		FF9FBDD11E640F9E00583824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9FBDD01E640F9E00583824 /* Assets.xcassets */; };
+		FF9FBDD41E640F9E00583824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9FBDD21E640F9E00583824 /* LaunchScreen.storyboard */; };
+		FF9FBDDF1E640F9E00583824 /* HYDataBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FBDDE1E640F9E00583824 /* HYDataBaseTests.m */; };
+		FF9FBDEA1E640F9E00583824 /* HYDataBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FBDE91E640F9E00583824 /* HYDataBaseUITests.m */; };
+		FF9FBDFB1E6411DA00583824 /* DBConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FBDF81E6411DA00583824 /* DBConnect.m */; };
+		FF9FBDFC1E6411DA00583824 /* EmployDB.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9FBDFA1E6411DA00583824 /* EmployDB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF9FBDDB1E640F9E00583824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9FBDB91E640F9D00583824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9FBDC01E640F9D00583824;
+			remoteInfo = HYDataBase;
+		};
+		FF9FBDE61E640F9E00583824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9FBDB91E640F9D00583824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9FBDC01E640F9D00583824;
+			remoteInfo = HYDataBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005510F573BAAAFF99C4A8AB /* libPods-HYDataBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYDataBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7BFA15ED9120CFEA3E33E0 /* Pods-HYDataBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDataBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYDataBase/Pods-HYDataBase.release.xcconfig"; sourceTree = "<group>"; };
+		FAFE1765D3D3DCFB03853680 /* Pods-HYDataBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYDataBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYDataBase/Pods-HYDataBase.debug.xcconfig"; sourceTree = "<group>"; };
+		FF9FBDC11E640F9D00583824 /* HYDataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYDataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9FBDC51E640F9E00583824 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9FBDC71E640F9E00583824 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF9FBDC81E640F9E00583824 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF9FBDCA1E640F9E00583824 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF9FBDCB1E640F9E00583824 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF9FBDCE1E640F9E00583824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9FBDD01E640F9E00583824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9FBDD31E640F9E00583824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF9FBDD51E640F9E00583824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9FBDDA1E640F9E00583824 /* HYDataBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYDataBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9FBDDE1E640F9E00583824 /* HYDataBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYDataBaseTests.m; sourceTree = "<group>"; };
+		FF9FBDE01E640F9E00583824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9FBDE51E640F9E00583824 /* HYDataBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYDataBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9FBDE91E640F9E00583824 /* HYDataBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYDataBaseUITests.m; sourceTree = "<group>"; };
+		FF9FBDEB1E640F9E00583824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9FBDF71E6411DA00583824 /* DBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConnect.h; sourceTree = "<group>"; };
+		FF9FBDF81E6411DA00583824 /* DBConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConnect.m; sourceTree = "<group>"; };
+		FF9FBDF91E6411DA00583824 /* EmployDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployDB.h; sourceTree = "<group>"; };
+		FF9FBDFA1E6411DA00583824 /* EmployDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployDB.m; sourceTree = "<group>"; };
+		FF9FBDFE1E64128600583824 /* HYHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYHead.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9FBDBE1E640F9D00583824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4565F2F95918F304CE8B196D /* libPods-HYDataBase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9FBDD71E640F9E00583824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9FBDE21E640F9E00583824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3A30BD3E91EDDA1EFE9B21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAFE1765D3D3DCFB03853680 /* Pods-HYDataBase.debug.xcconfig */,
+				DD7BFA15ED9120CFEA3E33E0 /* Pods-HYDataBase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE51F2B0C3AAD8CB509471BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005510F573BAAAFF99C4A8AB /* libPods-HYDataBase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9FBDB81E640F9D00583824 = {
+			isa = PBXGroup;
+			children = (
+				FF9FBDC31E640F9E00583824 /* HYDataBase */,
+				FF9FBDDD1E640F9E00583824 /* HYDataBaseTests */,
+				FF9FBDE81E640F9E00583824 /* HYDataBaseUITests */,
+				FF9FBDC21E640F9D00583824 /* Products */,
+				3C3A30BD3E91EDDA1EFE9B21 /* Pods */,
+				FE51F2B0C3AAD8CB509471BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9FBDC21E640F9D00583824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FBDC11E640F9D00583824 /* HYDataBase.app */,
+				FF9FBDDA1E640F9E00583824 /* HYDataBaseTests.xctest */,
+				FF9FBDE51E640F9E00583824 /* HYDataBaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9FBDC31E640F9E00583824 /* HYDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FBDFD1E6411F800583824 /* Tools */,
+				FF9FBDC71E640F9E00583824 /* AppDelegate.h */,
+				FF9FBDC81E640F9E00583824 /* AppDelegate.m */,
+				FF9FBDCA1E640F9E00583824 /* ViewController.h */,
+				FF9FBDCB1E640F9E00583824 /* ViewController.m */,
+				FF9FBDCD1E640F9E00583824 /* Main.storyboard */,
+				FF9FBDD01E640F9E00583824 /* Assets.xcassets */,
+				FF9FBDD21E640F9E00583824 /* LaunchScreen.storyboard */,
+				FF9FBDD51E640F9E00583824 /* Info.plist */,
+				FF9FBDC41E640F9E00583824 /* Supporting Files */,
+				FF9FBDFE1E64128600583824 /* HYHead.h */,
+			);
+			path = HYDataBase;
+			sourceTree = "<group>";
+		};
+		FF9FBDC41E640F9E00583824 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FBDC51E640F9E00583824 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9FBDDD1E640F9E00583824 /* HYDataBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FBDDE1E640F9E00583824 /* HYDataBaseTests.m */,
+				FF9FBDE01E640F9E00583824 /* Info.plist */,
+			);
+			path = HYDataBaseTests;
+			sourceTree = "<group>";
+		};
+		FF9FBDE81E640F9E00583824 /* HYDataBaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FBDE91E640F9E00583824 /* HYDataBaseUITests.m */,
+				FF9FBDEB1E640F9E00583824 /* Info.plist */,
+			);
+			path = HYDataBaseUITests;
+			sourceTree = "<group>";
+		};
+		FF9FBDFD1E6411F800583824 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FBDF71E6411DA00583824 /* DBConnect.h */,
+				FF9FBDF81E6411DA00583824 /* DBConnect.m */,
+				FF9FBDF91E6411DA00583824 /* EmployDB.h */,
+				FF9FBDFA1E6411DA00583824 /* EmployDB.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9FBDC01E640F9D00583824 /* HYDataBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9FBDEE1E640F9E00583824 /* Build configuration list for PBXNativeTarget "HYDataBase" */;
+			buildPhases = (
+				065F515C5B9DD6FD90A8401E /* [CP] Check Pods Manifest.lock */,
+				FF9FBDBD1E640F9D00583824 /* Sources */,
+				FF9FBDBE1E640F9D00583824 /* Frameworks */,
+				FF9FBDBF1E640F9D00583824 /* Resources */,
+				3CEB0DD05DAB48120DDAABAB /* [CP] Embed Pods Frameworks */,
+				E787857A10602335023ECAAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYDataBase;
+			productName = HYDataBase;
+			productReference = FF9FBDC11E640F9D00583824 /* HYDataBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9FBDD91E640F9E00583824 /* HYDataBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9FBDF11E640F9E00583824 /* Build configuration list for PBXNativeTarget "HYDataBaseTests" */;
+			buildPhases = (
+				FF9FBDD61E640F9E00583824 /* Sources */,
+				FF9FBDD71E640F9E00583824 /* Frameworks */,
+				FF9FBDD81E640F9E00583824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9FBDDC1E640F9E00583824 /* PBXTargetDependency */,
+			);
+			name = HYDataBaseTests;
+			productName = HYDataBaseTests;
+			productReference = FF9FBDDA1E640F9E00583824 /* HYDataBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF9FBDE41E640F9E00583824 /* HYDataBaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9FBDF41E640F9E00583824 /* Build configuration list for PBXNativeTarget "HYDataBaseUITests" */;
+			buildPhases = (
+				FF9FBDE11E640F9E00583824 /* Sources */,
+				FF9FBDE21E640F9E00583824 /* Frameworks */,
+				FF9FBDE31E640F9E00583824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9FBDE71E640F9E00583824 /* PBXTargetDependency */,
+			);
+			name = HYDataBaseUITests;
+			productName = HYDataBaseUITests;
+			productReference = FF9FBDE51E640F9E00583824 /* HYDataBaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9FBDB91E640F9D00583824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hrobrty;
+				TargetAttributes = {
+					FF9FBDC01E640F9D00583824 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MN96N4W443;
+					};
+					FF9FBDD91E640F9E00583824 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF9FBDC01E640F9D00583824;
+					};
+					FF9FBDE41E640F9E00583824 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FF9FBDC01E640F9D00583824;
+					};
+				};
+			};
+			buildConfigurationList = FF9FBDBC1E640F9D00583824 /* Build configuration list for PBXProject "HYDataBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9FBDB81E640F9D00583824;
+			productRefGroup = FF9FBDC21E640F9D00583824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9FBDC01E640F9D00583824 /* HYDataBase */,
+				FF9FBDD91E640F9E00583824 /* HYDataBaseTests */,
+				FF9FBDE41E640F9E00583824 /* HYDataBaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9FBDBF1E640F9D00583824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9FBDD41E640F9E00583824 /* LaunchScreen.storyboard in Resources */,
+				FF9FBDD11E640F9E00583824 /* Assets.xcassets in Resources */,
+				FF9FBDCF1E640F9E00583824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9FBDD81E640F9E00583824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9FBDE31E640F9E00583824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065F515C5B9DD6FD90A8401E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3CEB0DD05DAB48120DDAABAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYDataBase/Pods-HYDataBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E787857A10602335023ECAAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYDataBase/Pods-HYDataBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9FBDBD1E640F9D00583824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9FBDFC1E6411DA00583824 /* EmployDB.m in Sources */,
+				FF9FBDCC1E640F9E00583824 /* ViewController.m in Sources */,
+				FF9FBDC91E640F9E00583824 /* AppDelegate.m in Sources */,
+				FF9FBDFB1E6411DA00583824 /* DBConnect.m in Sources */,
+				FF9FBDC61E640F9E00583824 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9FBDD61E640F9E00583824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9FBDDF1E640F9E00583824 /* HYDataBaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9FBDE11E640F9E00583824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9FBDEA1E640F9E00583824 /* HYDataBaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9FBDDC1E640F9E00583824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9FBDC01E640F9D00583824 /* HYDataBase */;
+			targetProxy = FF9FBDDB1E640F9E00583824 /* PBXContainerItemProxy */;
+		};
+		FF9FBDE71E640F9E00583824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9FBDC01E640F9D00583824 /* HYDataBase */;
+			targetProxy = FF9FBDE61E640F9E00583824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF9FBDCD1E640F9E00583824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9FBDCE1E640F9E00583824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9FBDD21E640F9E00583824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9FBDD31E640F9E00583824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9FBDEC1E640F9E00583824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF9FBDED1E640F9E00583824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9FBDEF1E640F9E00583824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFE1765D3D3DCFB03853680 /* Pods-HYDataBase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HYDataBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hroberty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF9FBDF01E640F9E00583824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7BFA15ED9120CFEA3E33E0 /* Pods-HYDataBase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HYDataBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hroberty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF9FBDF21E640F9E00583824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYDataBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hrobrty.HYDataBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYDataBase.app/HYDataBase";
+			};
+			name = Debug;
+		};
+		FF9FBDF31E640F9E00583824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYDataBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hrobrty.HYDataBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYDataBase.app/HYDataBase";
+			};
+			name = Release;
+		};
+		FF9FBDF51E640F9E00583824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYDataBaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hrobrty.HYDataBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYDataBase;
+			};
+			name = Debug;
+		};
+		FF9FBDF61E640F9E00583824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HYDataBaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hrobrty.HYDataBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYDataBase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9FBDBC1E640F9D00583824 /* Build configuration list for PBXProject "HYDataBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9FBDEC1E640F9E00583824 /* Debug */,
+				FF9FBDED1E640F9E00583824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9FBDEE1E640F9E00583824 /* Build configuration list for PBXNativeTarget "HYDataBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9FBDEF1E640F9E00583824 /* Debug */,
+				FF9FBDF01E640F9E00583824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9FBDF11E640F9E00583824 /* Build configuration list for PBXNativeTarget "HYDataBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9FBDF21E640F9E00583824 /* Debug */,
+				FF9FBDF31E640F9E00583824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9FBDF41E640F9E00583824 /* Build configuration list for PBXNativeTarget "HYDataBaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9FBDF51E640F9E00583824 /* Debug */,
+				FF9FBDF61E640F9E00583824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9FBDB91E640F9D00583824 /* Project object */;
+}
