@@ -1,19 +1,23 @@
 # HYDataBase
-＊A module, about creating the database directly, can also create multiple databases.Create table in the database, the table has add and check to change, and other functions.
+- A module, about creating the database directly, can also create multiple databases.Create table in the database, the table has add and check to change, and other functions.
 
-＊一个在FMDB基础上写的一个模块,直接创建数据库,也可以创建多个数据库。在数据库中创建表,有增删查改等功能。
+- 一个在FMDB基础上写的一个模块,直接创建数据库,也可以创建多个数据库。在数据库中创建表,有增删查改等功能。
 
 #CocoPods
-＊你可以   pod  ‘HYDataBase’
+- 你可以   pod  ‘HYDataBase’
 
 #Requirements
-＊Object-c
-*Xcode 5 or higher
-*iOS 6 or higher
-*ARC
+- Object-c
+- Xcode 5 or higher
+- iOS 6 or higher
+- ARC
 
 #Usege Demo
-*数据库的操作：
+
+```java   
+
+- 数据库的操作：
+
 //  DBConnect.h
 //  HYDataBase
 //
@@ -84,8 +88,9 @@
 
 - (void)UpdateHistory:(NSInteger ) hid time:(NSString *)time;
 
-
 @end
 
+```
+
 #Contact
- 如果发现bug或有值得改进的地方，please pull reqeust me.
+ - 如果发现bug或有值得改进的地方，please pull reqeust me.
