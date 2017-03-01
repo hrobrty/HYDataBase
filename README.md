@@ -3,21 +3,19 @@
 
 - 一个在FMDB基础上写的一个模块,直接创建数据库,也可以创建多个数据库。在数据库中创建表,有增删查改等功能。
 
-#CocoPods
+# CocoPods
 - 你可以   pod  ‘HYDataBase’
 
-#Requirements
+# Requirements
 - Object-c
 - Xcode 5 or higher
 - iOS 6 or higher
 - ARC
 
-#Usege Demo
+# Usege Demo
 
-```java   
-
-- 数据库的操作：
-
+* 数据库的操作：
+```java 
 //  DBConnect.h
 //  HYDataBase
 //
@@ -62,9 +60,10 @@
 //重新开启新的数据库
 -(void)newDBConnect;
 @end
+```
 ＊
-＊2 对表格的操作：
-
+＊ 2对表格的操作：
+```java
 // 通过单例的方式
 + (EmployDB *)shareConnect;
 
@@ -92,5 +91,5 @@
 
 ```
 
-#Contact
+# Contact
  - 如果发现bug或有值得改进的地方，please pull reqeust me.
