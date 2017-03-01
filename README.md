@@ -61,8 +61,8 @@
 -(void)newDBConnect;
 @end
 ```
-＊
-＊ 2对表格的操作：
+
+* 2对表格的操作：
 ```java
 // 通过单例的方式
 + (EmployDB *)shareConnect;
